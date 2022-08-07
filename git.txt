@@ -1,2 +1,2 @@
-"Hi, this is git file!"
+"Hi, this is GIT file!"
 
