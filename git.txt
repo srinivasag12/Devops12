@@ -1,2 +1,2 @@
-"Hi, this is GIT file!"
+writing a new content
 
