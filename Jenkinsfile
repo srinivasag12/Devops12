@@ -14,21 +14,6 @@ pipeline {
             sh 'echo "Hostname is :`hostname` "'
           }
         }
-
-        stage('') {
-          steps {
-            sh 'echo "hi"'
-          }
-        }
-
       }
-    }
+   }
 
-    stage('stage3') {
-      steps {
-        sh 'echo "Hi this sharanu"'
-      }
-    }
-
-  }
-}
