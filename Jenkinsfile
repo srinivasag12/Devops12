@@ -7,8 +7,6 @@ pipeline {
       }
     }
 
-    stage('stage2') {
-      parallel {
         stage('stage2') {
           steps {
             sh 'echo "Hostname is :`hostname` "'
