@@ -1,1 +1,24 @@
 Hi, this is madhu 
+#!/bin/bash
+
+      #checking running container
+ echo "list a running containers:"; docker ps
+
+      #removing ruuning container
+ echo "delete containers:"; docker rm -f $(docker ps -a -q)
+
+      #creating a one or more container
+
+ for i in c1 c2 c3 c4 c5 c6 c7 c8 c9 c10
+ do
+       for j in 9001 9002 9003 9004 9005 9006 9007 9008 9009 9010
+       do
+          for k in centos ubuntu alpine hello-world nginx mysql task1 task2 virat rcb
+          do
+              echo "running a containers:"; docker container run -it --name $i -p $j:80 $k
+          done
+  done
+done
+
+
+~                                                                                                                                                                           
