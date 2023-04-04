@@ -9,7 +9,7 @@ pipeline {
 
         stage('stage2') {
           steps {
-            sh 'echo "Hostname is :`free -h` "'
+            sh 'echo "Hostname is :`ls -all` "'
           }
         }
       }
