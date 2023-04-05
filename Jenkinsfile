@@ -9,7 +9,7 @@ pipeline {
 
         stage('stage2') {
           steps {
-            sh 'echo "Hostname is :`ls -all` "'
+            sh 'echo "Hostname is :`docker image ls` "'
           }
         }
       }
