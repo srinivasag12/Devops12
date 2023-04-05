@@ -9,7 +9,7 @@ pipeline {
 
         stage('stage2') {
           steps {
-            sh 'echo "creating a directory is :`mkdir application` "'
+            sh 'echo "creating a directory is :`mkdir app` "'
           }
         }
       }
